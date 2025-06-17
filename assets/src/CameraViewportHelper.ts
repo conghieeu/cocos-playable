@@ -18,7 +18,6 @@ export class CameraViewportHelper extends Component {
         if (!this.screenResizeHandler) {
             this.screenResizeHandler = this.node.scene.getComponentInChildren(ScreenResizeHandler);
         }
-
         if (this.screenResizeHandler) {
             this.screenResizeHandler.addResizeListener(this.OnWindowResize, this);
             this.OnWindowResize();
@@ -27,12 +26,10 @@ export class CameraViewportHelper extends Component {
 
     OnWindowResize() {
         if (!this.camera) return;
-
         let visibleSize = this.screenResizeHandler.getSize();
         let ratio = this.screenResizeHandler.getRatio();
         const horizontalRatio = 1336 / 750;
         const verticalRatio = 750 / 1336;
-
         if (ratio >= horizontalRatio) {
             this.camera.orthoHeight = 375
         }

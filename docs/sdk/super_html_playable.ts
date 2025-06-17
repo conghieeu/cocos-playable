@@ -5,6 +5,11 @@
  * @author https://github.com/magician-f
  */
 export class super_html_playable {
+    game_start() {
+        console.log("game start");
+        //@ts-ignore
+        window.super_html && super_html.game_start();
+    }
 
     download() {
         console.log("download");
@@ -19,7 +24,7 @@ export class super_html_playable {
     }
 
     /**
-     * 是否隐藏下载按钮，意味着使用平台注入的下载按钮
+     * Có ẩn nút tải xuống hay không, nghĩa là sử dụng nút tải xuống do nền tảng chèn vào
      * channel : google
      */
     is_hide_download() {
@@ -32,7 +37,7 @@ export class super_html_playable {
     }
 
     /**
-     * 设置商店地址
+     * Thiết lập địa chỉ cửa hàng
      * channel : unity
      * @param url https://play.google.com/store/apps/details?id=com.unity3d.auicreativetestapp
      */
@@ -42,7 +47,7 @@ export class super_html_playable {
     }
 
     /**
-    * 设置商店地址
+    * Thiết lập địa chỉ cửa hàng
     * channel : unity
     * @param url https://apps.apple.com/us/app/ad-testing/id1463016906
     */
@@ -52,7 +57,7 @@ export class super_html_playable {
     }
 
     /**
-    * 是否开启声音
+    * Có bật âm thanh hay không
     * channel : ironsource
     */
     is_audio() {

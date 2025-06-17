@@ -1,6 +1,3 @@
-
-## [中文说明](https://github.com/magician-f/cocos-playable-demo/tree/main/README-CN.md)
-
 ## [cocos-playable-demo](https://github.com/magician-f/cocos-playable-demo)
 
 * An effective solution for creating playable demos using cocos creator
@@ -77,11 +74,4 @@ super-html packages the built web-mobile into playable platform files
 |[ironsource](https://developers.is.com/ironsource-mobile/general/interactive-requirements)|✔️|5M|html|[upload review](https://developers.is.com/ironsource-mobile/general/html-upload/)|
 |[mintegral](https://www.mindworks-creative.com/review/doc)|✔️|5M|zip|[web](https://www.mindworks-creative.com/review/)|
 |[pangle - tiktok](https://ads.tiktok.com/help/article/playable-ads)|❌|5M|zip|[upload review](https://ads.tiktok.com/help/article/playable-ads?lang=zh#anchor-19)|
-|[unity](https://docs.unity.com/acquire/manual/playable-ads)|✔️|5M|html|[android, ios](https://storage.googleapis.com/unity-ads-aui-prod-deployments/external-app/UnityAds_Playable_guide.pdf)|
-
-## [Frequently Asked Questions (QA)](./QA.md)
-
-## Contact the Author
-
-* Discord: cocos_magician
-* WeChat: magician-f8
+|[unity](https://docs.unity.com/acquire/manual/playable-ads)|✔️|5M|html|[android, ios](https://storage.googleapis.com/unity-ads-aui-prod-deployments/external-app/UnityAds_Playable_guide.pdf)
